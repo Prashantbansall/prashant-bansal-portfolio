@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="mx-auto flex min-h-screen max-w-7xl items-center px-6 pt-24"
+      className="portfolio-container flex min-h-screen items-center pt-24"
     >
       <div className="max-w-4xl">
         <motion.p

@@ -4,7 +4,7 @@ import { projects } from "../../data/projects";
 
 function Projects() {
   return (
-    <section id="projects" className="mx-auto max-w-7xl px-6 py-24">
+    <section id="projects" className="portfolio-container section-padding">
       <SectionHeading
         eyebrow="Featured Work"
         title="Featured Projects"

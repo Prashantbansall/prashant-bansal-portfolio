@@ -4,7 +4,7 @@ import { socialLinks } from "../../data/socialLinks";
 
 function ResumeCTA() {
   return (
-    <section id="resume" className="mx-auto max-w-7xl px-6 py-24">
+    <section id="resume" className="portfolio-container section-padding">
       <GlowCard className="text-center">
         <p className="mb-3 text-sm font-medium text-cyan-300">Resume</p>
 

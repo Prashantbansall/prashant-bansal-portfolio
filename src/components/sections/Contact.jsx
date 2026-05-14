@@ -4,7 +4,7 @@ import { socialLinks } from "../../data/socialLinks";
 
 function Contact() {
   return (
-    <section id="contact" className="mx-auto max-w-7xl px-6 py-24">
+    <section id="contact" className="portfolio-container section-padding">
       <SectionHeading
         eyebrow="Contact"
         title="Let's Connect"

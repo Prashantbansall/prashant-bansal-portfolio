@@ -10,7 +10,7 @@ const highlights = [
 
 function About() {
   return (
-    <section id="about" className="mx-auto max-w-7xl px-6 py-24">
+    <section id="about" className="portfolio-container section-padding">
       <SectionHeading
         eyebrow="About Me"
         title="Driven by clean code, strong fundamentals, and meaningful products."
