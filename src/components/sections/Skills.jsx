@@ -5,7 +5,7 @@ import { skills } from "../../data/skills";
 
 function Skills() {
   return (
-    <section id="skills" className="mx-auto max-w-7xl px-6 py-24">
+    <section id="skills" className="portfolio-container section-padding">
       <SectionHeading
         eyebrow="Skills"
         title="Skills & Technologies"

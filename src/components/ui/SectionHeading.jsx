@@ -1,6 +1,6 @@
 function SectionHeading({ eyebrow, title, subtitle, align = "center" }) {
   const alignment =
-    align === "left" ? "text-left items-start" : "text-center items-center";
+    align === "left" ? "items-start text-left" : "items-center text-center";
 
   return (
     <div className={`mb-12 flex flex-col ${alignment}`}>

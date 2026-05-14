@@ -1,4 +1,9 @@
-function AnimatedButton({ children, href = "#", variant = "primary" }) {
+function AnimatedButton({
+  children,
+  href = "#",
+  variant = "primary",
+  className = "",
+}) {
   const variants = {
     primary:
       "bg-gradient-to-r from-violet-600 to-cyan-500 text-white shadow-lg shadow-violet-950/40 hover:shadow-cyan-500/20",
@@ -10,7 +15,7 @@ function AnimatedButton({ children, href = "#", variant = "primary" }) {
   return (
     <a
       href={href}
-      className={`inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition duration-300 hover:-translate-y-1 ${variants[variant]}`}
+      className={`transition-premium inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold hover:-translate-y-1 ${variants[variant]} ${className}`}
     >
       {children}
     </a>
